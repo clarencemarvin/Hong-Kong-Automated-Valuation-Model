@@ -6,7 +6,7 @@ import time
 # --- Step 1: Setup Google Maps Client ---
 # IMPORTANT: Replace 'YOUR_API_KEY' with your actual Google Maps API key.
 try:
-    gmaps = googlemaps.Client(key='AIzaSyDHzB39PViHWNZP54HyapRwd0s4yBc0M7U')
+    gmaps = googlemaps.Client(key='GMAP_API_KEY')
 except Exception as e:
     print(f"Error initializing Google Maps client: {e}")
     print("Please ensure you have replaced 'YOUR_API_KEY' with a valid key.")
